@@ -3,3 +3,5 @@ Uses OpenNi to connect to the Microsoft Kinect V2. Make sure to download the Pro
 
 Used this code for point cloud object recognition project. Great for generating point cloud data and simple enough to modify for different use cases. 
 
+DepthPointCloud.pde collects the entire area while DepthPointCloudThreshold.pde only collects points within a distance range. This was useful for creating models/ground truths for our point cloud object recognition project.
+
